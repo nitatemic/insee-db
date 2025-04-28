@@ -47,11 +47,11 @@ mkdir places
 cd places
 
 # Places
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/6800675/v_commune_2023.csv && mv v_commune_2023.csv communes.csv
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/6800675/v_departement_2023.csv && mv v_departement_2023.csv departements.csv
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/6800675/v_region_2023.csv && mv v_region_2023.csv regions.csv
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/6800675/v_pays_2023.csv && mv v_pays_2023.csv pays.csv
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/6800675/v_mvtcommune_2023.csv && mv v_mvtcommune_2023.csv mouvements.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_commune_2025.csv && mv v_commune_2025.csv communes.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_departement_2025.csv && mv v_departement_2025.csv departements.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_region_2025.csv && mv v_region_2025.csv regions.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_pays_territoire_2025.csv && mv v_pays_territoire_2025.csv pays.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_mvt_commune_2025.csv && mv v_mvtcommune_2025.csv mouvements.csv
 
 cd ..
 
