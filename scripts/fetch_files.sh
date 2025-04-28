@@ -51,7 +51,7 @@ wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_commune_2025
 wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_departement_2025.csv && mv v_departement_2025.csv departements.csv
 wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_region_2025.csv && mv v_region_2025.csv regions.csv
 wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_pays_territoire_2025.csv && mv v_pays_territoire_2025.csv pays.csv
-wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_mvt_commune_2025.csv && mv v_mvtcommune_2025.csv mouvements.csv
+wget --quiet https://www.insee.fr/fr/statistiques/fichier/8377162/v_mvt_commune_2025.csv && mv v_mvt_commune_2025.csv mouvements.csv
 
 cd ..
 
