@@ -58,16 +58,14 @@ cd ..
 mkdir deaths
 cd deaths
 
-# Monthly (January-July 2023)
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M07.zip 7cc46c67850f7007a316bfa67301d995 && mv Deces_2023_M07.csv deces-2023-m07.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M06.zip 579b3781a5f5c78e72ddc2502d187240 && mv Deces_2023_M06.csv deces-2023-m06.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M05.zip d9edc0ae9a4ee4f061133d3bb7e3c40f && mv Deces_2023_M05.csv deces-2023-m05.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M04.zip 680e5e8788a7ee08b219d675e81ec30f && mv Deces_2023_M04.csv deces-2023-m04.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M03.zip 13fde0777c5163a1c857b85806035ee2 && mv Deces_2023_M03.csv deces-2023-m03.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M02.zip d6cc6e23d0b89d7ac090077fd3cb3e20 && mv Deces_2023_M02.csv deces-2023-m02.csv
-get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023_M01.zip 55abebf4543bfa1740bba6ec0c056ef5 && mv Deces_2023_M01.csv deces-2023-m01.csv
+# Monthly (January-March 2025)
+get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2025_M03.zip cad229d3ebff0ffe752aec475230aa4c && mv Deces_2025_M03.csv deces-2025-m03.csv
+get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2025_M02.zip 4a5f96124763b581be02f8c63ce67b95 && mv Deces_2025_M02.csv deces-2025-m02.csv
+get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2025_M01.zip 2781afc66ee45ff030dc0ea16402f685 && mv Deces_2025_M01.csv deces-2025-m02.csv
 
 # Yearly (2020-2022)
+get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2024.zip 81fa087591567690298ed75f87aa5efb && mv Deces_2024.csv deces-2024.csv
+get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2023.zip e58e0dd0e56359ee713e9082ac51d922 && mv Deces_2023.csv deces-2023.csv
 get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2022.zip f62384440597c24864842b5cf2ffa0af && mv Deces_2022.csv deces-2022.csv
 get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2021.zip ecf476f3d98f62fb907cfe48e3475065 && mv Deces_2021.csv deces-2021.csv
 get https://www.insee.fr/fr/statistiques/fichier/4190491/Deces_2020.zip 73ef602ebc531dc1f44673f5c8cd3f58 && mv deces_2020.csv deces-2020.csv
