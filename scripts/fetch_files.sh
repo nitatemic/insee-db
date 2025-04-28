@@ -38,7 +38,7 @@ function get() {
 }
 
 # Names
-get https://www.insee.fr/fr/statistiques/fichier/2540004/nat2021_csv.zip && mv nat2021.csv prenoms.csv
+get https://www.insee.fr/fr/statistiques/fichier/7633685/nat2022_csv.zip && mv nat2021.csv prenoms.csv
 
 # Opposition (blacklist)
 wget --quiet https://www.data.gouv.fr/fr/datasets/r/7bcdfa57-dc50-43a8-beb6-6c76537e7057 && mv 7bcdfa57-dc50-43a8-beb6-6c76537e7057 opposition.csv
